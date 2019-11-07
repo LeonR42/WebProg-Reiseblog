@@ -8,6 +8,15 @@ body{
   margin:0
 }
 
+#uhr{
+  color: white;
+  text-shadow: 2px 2px #555555;
+  font-family:sans-serif;
+  margin: 30px 50px;
+  text-align: center;
+  font-size: 80px;
+}
+
 h1{
   color: #333;
   font-family:sans-serif;
@@ -97,7 +106,9 @@ li a:hover {
   padding-bottom:50px;
   margin-bottom:30px;
   color:inherit;
-  background-image:url("https://img.fotocommunity.com/dubai-wueste-9eee85eb-1f93-443f-ad4e-f22372ec51fe.jpg?height=500");
+  /* background-image:url("https://img.fotocommunity.com/dubai-wueste-9eee85eb-1f93-443f-ad4e-f22372ec51fe.jpg?height=500"); */
+  background-image:url("https://media.licdn.com/dms/image/C4E1BAQHyPNq5tTaLuQ/company-background_10000/0?e=2159024400&v=beta&t=y3IYWMXpjgOL1JPno8CPhNRp3xM-wsQB-5X6jj6f8hk");
+  background-image:url("http://sf.co.ua/12/11/wallpaper-2444130.jpg");
 }
 .row{
   margin-right:-15px;
@@ -113,5 +124,5 @@ li a:hover {
 }
 footer {
   background-color: #f2f2f2;
-padding: 50px;
+  padding: 50px;
 }

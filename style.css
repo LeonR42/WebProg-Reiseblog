@@ -1,0 +1,223 @@
+html{
+  font-family:sans-serif;
+  -ms-text-size-adjust:100%
+  -webkit-text-size-adjust:100%
+}
+body{
+  margin:0
+}
+nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  display: inline;
+    float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #111;
+}
+.jumbotron{
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-bottom:30px;
+  color:inherit;
+  background-image:url("https://img.fotocommunity.com/dubai-wueste-9eee85eb-1f93-443f-ad4e-f22372ec51fe.jpg?height=500");
+}
+.container{
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+
+h1{
+  color: #333;
+  font-family:sans-serif;
+  text-align: center;
+  font-size: 60px;
+
+}
+
+ol{
+font-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+padding-left: 70px;
+}
+
+h2{
+    font-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 70px; padding-right: 70px;
+}
+
+#tippref, #beachtenref, #galerieref, #komref {
+  padding-left: 70px; padding-right: 70px;
+  font-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  line-height: 1.5;
+  color: black;
+  font-weight: bold;
+}
+p{
+
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  line-height: 2;
+  text-align: justify;
+}
+
+#tea{
+    padding-left: 70px; padding-right: 70px;
+}
+textarea {
+	caret-color: black;
+	width: 30em;
+	height: 10em;
+	border: 1px solid black;
+	padding: 0.5em;
+	font-family: Tahoma, sans-serif;
+}
+textarea:focus {
+      background: #e6e6e6;
+      border-color: black;
+}
+h3{
+  ont-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 18px;
+  padding-left: 70px; padding-right: 70px;
+}
+
+#fuß{
+  font-size: 12px;
+}
+
+ p {padding-left: 70px; padding-right: 70px;}
+
+img{
+  width: 30%;
+}
+#minigalerie {
+  display: table;
+  border-spacing: 10px;
+}
+
+#minigalerie a {
+  display: table-cell;
+  vertical-align: middle;
+}
+#minigalerie img {
+  transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transition: 1s;
+}
+#minigalerie img:target {
+  width: 600px;
+  height: 320px;
+}
+#minigalerie img {
+
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 0 0 7px rgba(100, 100, 100, 1);
+  -moz-box-shadow: 0 0 7px rgba(100, 100, 100, 1);
+  -webkit-box-shadow: 0 0 7px rgba(100, 100, 100, 1);
+}
+
+
+#daten, #nachoben{
+  font-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 11px;
+
+}
+
+<style>
+/* Sternebewertung */
+
+span#Bewertung {
+ line-height: 45px;
+}
+
+span.sternebewertung {
+ float: Left;
+}
+
+span.sternebewertung:not(:checked) > input {
+ display: None;
+}
+
+span.sternebewertung:not(:checked) > label {
+ float: Right;
+ width: 1em;
+ padding: 0 .1em;
+ overflow: Hidden;
+ white-space: Nowrap;
+ cursor: Pointer;
+ font-size: 200%;
+ line-height: 1.2;
+ color: #D0D0D0;
+ text-shadow: 1px 1px #B0B0B0, 2px 2px #606060, .1em .1em .2em rgba(0,0,0,.5);
+ transition: all .5s;
+}
+
+span.sternebewertung:not(:checked) > label:before {
+ content: '★ ';
+}
+
+span.sternebewertung > input:checked ~ label {
+ color: #FFD700;
+ text-shadow: 1px 1px #C06000, 2px 2px #904000, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+span.sternebewertung:not(:checked) > label:hover,
+span.sternebewertung:not(:checked) > label:hover ~ label {
+ color: #FFD700;
+ text-shadow: 1px 1px #F29E02, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+span.sternebewertung > input:checked + label:hover,
+span.sternebewertung > input:checked + label:hover ~ label,
+span.sternebewertung > input:checked ~ label:hover,
+span.sternebewertung > input:checked ~ label:hover ~ label,
+span.sternebewertung > label:hover ~ input:checked ~ label {
+ color: #F9B500;
+ text-shadow: 1px 1px #F8BA01, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+</style>
+
+#tabelle{
+
+text-align: right;
+}
+
+
+#kommentieren{
+  font-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  padding-left: 70px;
+}

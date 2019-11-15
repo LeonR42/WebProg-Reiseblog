@@ -5,24 +5,38 @@
         <title>Reiseblog</title>
     </head>
     <body>
-        <header>
+        <nav class="navbar-inverse">
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="Startseite.html">Startseite</a></li>
+              <li class="active"><a href="seite3.html">Blog anlegen</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="jumbotron">
+          <div class="container text-center">
             <h1>Reiseblog</h1>
-        </header>
+          </div>
+        </div>
         <main>
             <h2>Erstellen sie hier ihren eigenen Blog</h2>
             <div>
 
 
             <div class="Eingabe1">
+
                 Land:<br />
                 <input name="Land"></input>
             </div>
+
+
             <div class="Eingabe2">
                 Stadt/Region:<br />
                 <input name="Stadt"></input>
             </div>
             <br />
-            <div>
+            <div class="Eingabe3">
                 Ihr Blog:<br />
                 <textarea name="Blog" rows="15" cols="207"></textarea>
             </div>

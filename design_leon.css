@@ -4,34 +4,106 @@ html{
   -webkit-text-size-adjust:100%
 }
 body{
-  font-family:sans-serif;
   margin:0
 }
-h1{
-  color: #333;
-  font-family:sans-serif;
-  margin: 30px 50px;
-  text-align: center;
-  font-size: 60px;
+nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 li {
   display: inline;
     float: left;
 }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #111;
+}
+.jumbotron{
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-bottom:30px;
+  color:inherit;
+  background-image:url("https://img.fotocommunity.com/dubai-wueste-9eee85eb-1f93-443f-ad4e-f22372ec51fe.jpg?height=500");
+}
+.container{
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+
+h1{
+  color: #333;
+  font-family:sans-serif;
+  text-align: center;
+  font-size: 60px;
+
+}
+h2{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
 main textarea {
     resize: none;
+    
  }
  label input{
      size: 20x;
  }
 
-.Eingabe1 {
-    float: left;
-    width: 85%
-}
-.Eingabe1 {
 
+.Eingabe1 {
+    padding-left: 70px;
+    padding-right: 70px;
     float: left;
     margin-right: 5%;
     width: 10%
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    line-height: 2;
+    text-align: justify;
+}
+.Eingabe2 {
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    line-height: 2;
+    text-align: justify;
+}
+.Eingabe3 {
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    line-height: 2;
+    text-align: justify;
+}
+.EingabeBild{
+    padding-left: 70px;
+
 }

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link href="design_leon.css" rel="stylesheet">
+        <meta charset="utf-8" />
+        <title>Reiseblog</title>
+    </head>
+    <body>
+        <header>
+            <h1>Reiseblog</h1>
+        </header>
+        <main>
+            <h2>Erstellen sie hier ihren eigenen Blog</h2>
+            <div>
+
+
+            <div class="Eingabe1">
+                Land:<br />
+                <input name="Land"></input>
+            </div>
+            <div class="Eingabe2">
+                Stadt/Region:<br />
+                <input name="Stadt"></input>
+            </div>
+            <br />
+            <div>
+                Ihr Blog:<br />
+                <textarea name="Blog" rows="15" cols="207"></textarea>
+            </div>
+            <br />
+            <div class="EingabeBild">
+                <form action="manage_uploads.php" method="post" enctype="multipart/form-data">
+                    <label>Wählen Sie die hochzuladenden Dateien von Ihrem Rechner aus:
+                        <input name="datei[]" type="file" multiple>
+                    </label>
+                    <button>Hochladen</button>
+                </form>
+            </div>
+
+            </div>
+        </main>
+
+    </body>
+</html>

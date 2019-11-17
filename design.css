@@ -15,15 +15,17 @@ h1{
   font-size: 60px;
 }
 button{
-    background-color: #555555;
+    background-color: #009900;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 18px;
     text-align: center;
     text-decoration: none;
     acdisplay: inline-block;
     font-size: 14px;
+    margin-bottom: 15px;
 }
+
 footer {
   background-color: #f2f2f2;
   padding: 50px;

@@ -9,7 +9,6 @@
   <script language="javascript" type="text/javascript" src="Reiseblog.js"></script>
 </head>
 <body>
-  <form action="reiseblog.php" method="post">
     <nav class="navbar-inverse">
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav" id="nav">
@@ -99,47 +98,19 @@
       <a href="#b8"><img src="http://coeser.de/blog/wp-content/uploads/2018/10/berlin-teil1-aufmacher8-museumsinsel-christian-oeser.jpg" id="b8" /></a>
     </div>
     <br>
-    <div id="sterne">
-      <p>
-        Möchten Sie eine Bewertung zu dem Blogeintrag geben?
-        <br>
-        <span class="sternebewertung">
-          <input type="radio" id="stern5" name="bewertung" value="5"><label for="stern5" title="5 Sterne">5 Sterne</label>
-          <input type="radio" id="stern4" name="bewertung" value="4"><label for="stern4" title="4 Sterne">4 Sterne</label>
-          <input type="radio" id="stern3" name="bewertung" value="3"><label for="stern3" title="3 Sterne">3 Sterne</label>
-          <input type="radio" id="stern2" name="bewertung" value="2"><label for="stern2" title="2 Sterne">2 Sterne</label>
-          <input type="radio" id="stern1" name="bewertung" value="1"><label for="stern1" title="1 Stern">1 Stern</label>
-        </span>
-      </p>
-    </div>
-    <br><br>
-    <form action="form.php" method="post">
-      <div id="tea">
-          <textarea id="myTextarea" placeholder="Wie hat dir dieser Blogeintrag gefallen?"></textarea>
-          <br>
-          <button type="button" onclick="myFunction()">kommentieren</button>
-      </div>
-        <h3 id="kommentieren">Kommentare:</h3>
-        <p id="demo"></p>
-    </form>
-    <br>
-    <br>
-    <div>
-      <footer class="container-fluid text-center">
-        <p id="daten">Kontaktdaten: Harry Potter - Ligusterweg 4 - Little Whinging</p>
-        <h3 id="fuß">
-          Ihr könnt uns auch auf folgenden sozialen Medien finden:
-          <table id="tabelle">
-            <tr>
-              <td>Logo1</td>
-              <td>Logo2</td>
-              <td>Logo3</td>
-            </tr>
-          </table>
-          <br>
-          <a id="nachoben" href="#"><i></i>Nach oben</a>
-          <h3 />
-      </footer>
+  	    <p>  Möchten Sie eine Bewertung zu dem Blogeintrag geben? </p>
+  	    <div id="kommen">
+  	       <form>
+  	               <input id="eingabe" value="" type="text" placeholder="Wie hat Ihnen dieser Blogeintrag gefallen?">
+  	        <br><br>
+  	        <button id="mehr">kommentieren</button>
+  	       </form>
+  	        </div>
+  	      <br>
+  	      <br>
+  	      <h2 id="kommentieren"> Kommentare: </h2>
+  	       <ul id="eintraege"></ul>
+  	      <br><br><br><br>
     </div>
 </body>
 </html>

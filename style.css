@@ -1,0 +1,239 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100% -webkit-text-size-adjust:100%
+}
+
+body {
+  margin: 0
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #111;
+}
+
+.jumbotron {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-image: url("https://img.fotocommunity.com/dubai-wueste-9eee85eb-1f93-443f-ad4e-f22372ec51fe.jpg?height=500");
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+
+h1 {
+  color: #333;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+ol {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  padding-left: 70px;
+}
+
+h2 {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+#tippref, #beachtenref, #galerieref, #komref {
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  line-height: 1.5;
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  line-height: 2;
+  text-align: justify;
+}
+
+#tea {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+textarea {
+  caret-color: black;
+  width: 30em;
+  height: 10em;
+  border: 1px solid black;
+  padding: 0.5em;
+  font-family: Tahoma, sans-serif;
+}
+
+textarea:focus {
+  background: #e6e6e6;
+  border-color: black;
+}
+
+#uhr {
+  color: white;
+  text-shadow: 2px 2px #555555;
+  font-family: sans-serif;
+  margin: 30px 50px;
+  text-align: center;
+  font-size: 80px;
+}
+
+h3 {
+  ont-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 18px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+#fuß {
+  font-size: 12px;
+}
+
+p {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+img {
+  width: 30%;
+}
+
+#minigalerie {
+  display: table;
+  border-spacing: 10px;
+}
+
+#minigalerie a {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#minigalerie img {
+  transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transition: 1s;
+}
+
+#minigalerie img:target {
+  width: 600px;
+  height: 320px;
+}
+
+#minigalerie img {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 0 0 7px rgba(100, 100, 100, 1);
+  -moz-box-shadow: 0 0 7px rgba(100, 100, 100, 1);
+  -webkit-box-shadow: 0 0 7px rgba(100, 100, 100, 1);
+}
+
+#daten, #nachoben {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 11px;
+}
+
+#tabelle {
+  text-align: right;
+}
+
+#eintraege {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 11px;
+}
+
+#kommen {
+  padding-left: 70px;
+}
+
+#eingabe {
+  width: 30%;
+  height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+ul{
+  list-style: circle;
+}
+ul#eintraege {
+  width: 60%;
+  margin-top: 10px;
+  list-style-type:circle;
+  padding-left: 70px;
+  font-size: 15px;
+}
+
+ul#eintraege li {
+  border-bottom: 1px solid #a9a9a9;
+  padding: 10px;
+
+
+}
+
+#mehr {
+  background-color: #4CAF50;
+  padding: 10px 24px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 11px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #f8f8f8;
+}
+
+#mehr:hover {
+  background-color: #f8f8f8;
+  color: black;
+}
+#gmeg_map_canvas{
+  padding-left: 70 px;
+}

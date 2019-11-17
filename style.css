@@ -216,6 +216,10 @@ span.sternebewertung > label:hover ~ input:checked ~ label {
 text-align: right;
 }
 
+h4{
+  font-weight: bold;
+  padding-left: 70px; padding-right: 70px;
+}
 
 #kommentieren{
   font-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;

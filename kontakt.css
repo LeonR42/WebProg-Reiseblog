@@ -1,0 +1,80 @@
+tml {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100% -webkit-text-size-adjust:100%
+}
+
+body {
+  margin: 0
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #111;
+}
+
+.jumbotron {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-image: url("https://img.fotocommunity.com/dubai-wueste-9eee85eb-1f93-443f-ad4e-f22372ec51fe.jpg?height=500");
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+
+
+h1{
+  color: #333;
+  font-family:sans-serif;
+  text-align: center;
+  font-size: 60px;
+
+}
+
+h2{
+  font-weight: bold;
+  font-size: 10px;
+}
+p{
+
+  font-family:sans-serif;
+  text-align: center;
+  font-size: 12px;
+
+}
